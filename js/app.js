@@ -9,6 +9,11 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
+  let twoSum = a + b
+  let string = 'The sum of ' + a + ' and ' + b + ' is ' + twoSum + '.';
+  let result = [twoSum, string];
+  console.log(result);
+  return result;
 
 }
 
